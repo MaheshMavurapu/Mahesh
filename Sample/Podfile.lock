@@ -1,0 +1,16 @@
+PODS:
+  - TextArea (1.0.0)
+
+DEPENDENCIES:
+  - TextArea (from `../TextArea/`)
+
+EXTERNAL SOURCES:
+  TextArea:
+    :path: "../TextArea/"
+
+SPEC CHECKSUMS:
+  TextArea: 4ad86ad6fc46d71b2db55e3554efc7ea86a17364
+
+PODFILE CHECKSUM: 9cf1f927167cada55a6b97a46ddcd2c96ea1d991
+
+COCOAPODS: 1.5.3

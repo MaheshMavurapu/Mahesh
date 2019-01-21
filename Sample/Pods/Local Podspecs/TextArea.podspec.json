@@ -1,0 +1,19 @@
+{
+  "name": "TextArea",
+  "version": "1.0.0",
+  "summary": "A short description of TextArea.",
+  "description": "Short description of blah blah blah blah",
+  "homepage": "https://github.com/MaheshMavurapu/Mahesh",
+  "license": "MIT",
+  "authors": {
+    "MaheshMavurapu": "mahesh.mavurapu@gmail.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/MaheshMavurapu/Mahesh.git",
+    "tag": "1.0.0"
+  },
+  "source_files": "TextArea/**/*.{h,m,swift}"
+}
