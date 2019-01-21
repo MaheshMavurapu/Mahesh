@@ -1,5 +1,5 @@
 PODS:
-  - TextArea (1.0.0)
+  - TextArea (1.0.1)
 
 DEPENDENCIES:
   - TextArea (from `../TextArea/`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../TextArea/"
 
 SPEC CHECKSUMS:
-  TextArea: 4ad86ad6fc46d71b2db55e3554efc7ea86a17364
+  TextArea: 07c9fe32f8d2671dc690a9ddc3e73fa338901628
 
 PODFILE CHECKSUM: 9cf1f927167cada55a6b97a46ddcd2c96ea1d991
 
