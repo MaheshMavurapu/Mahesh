@@ -8,8 +8,16 @@
 
 import Foundation
 
-public class Random {
-    public static func ABC() {
-        print("Its an ABC...!")
+public enum ButtonType: String {
+    case roundOutlined
+    case raisedButton
+}
+
+@IBDesignable class ABCButton: UIButton {
+    /// Button Background Color
+    @IBInspectable var bgcolor: UIColor = UIColor.blue {
+        didSet {
+            self.backgroundColor = bgcolor
+        }
     }
 }

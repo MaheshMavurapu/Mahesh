@@ -8,8 +8,11 @@
 
 import Foundation
 
-public class Generator {
-    public static func XYZ() {
-        print("Its an XYZ...!")
+@IBDesignable class XYZButton: UIButton {
+    /// Button Background Color
+    @IBInspectable var bgcolor: UIColor = UIColor.blue {
+        didSet {
+            self.backgroundColor = bgcolor
+        }
     }
 }
