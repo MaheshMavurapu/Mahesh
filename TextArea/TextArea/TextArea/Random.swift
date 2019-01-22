@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import TextBox
 
 public enum ButtonType: String {
     case roundOutlined
@@ -18,12 +19,14 @@ public enum ButtonType: String {
     @IBInspectable var bgcolor: UIColor = UIColor.blue {
         didSet {
             self.backgroundColor = bgcolor
+            Printer.printMessage()
         }
     }
     /// Button Background Color
     @IBInspectable var color: UIColor = UIColor.blue {
         didSet {
             self.backgroundColor = color
+            Printer.printMessage()
         }
     }
 }

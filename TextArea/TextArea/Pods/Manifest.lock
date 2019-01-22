@@ -1,0 +1,16 @@
+PODS:
+  - TextBox (1.0.3)
+
+DEPENDENCIES:
+  - TextBox
+
+SPEC REPOS:
+  https://github.com/MaheshMavurapu/RepositoryPodSpecs.git:
+    - TextBox
+
+SPEC CHECKSUMS:
+  TextBox: 271e1a82624eb09669fbdcdf0d6e73de9951ac70
+
+PODFILE CHECKSUM: d43ba98c60124e6c6cd33f196c15af6623dbb315
+
+COCOAPODS: 1.5.3
