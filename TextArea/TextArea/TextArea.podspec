@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "TextArea"
-  s.version      = "1.0.2"
+  s.version      = "1.0.4"
   s.summary      = "A short description of TextArea."
   s.description  = "Short description of blah blah blah blah"
   s.homepage     = "https://github.com/MaheshMavurapu/Mahesh"
