@@ -8,11 +8,23 @@
 
 import Foundation
 
-@IBDesignable class XYZButton: UIButton {
+public enum SomeType: String {
+    case roundOutlined
+    case raisedButton
+}
+
+@IBDesignable public class XYZButton: UIButton {
     /// Button Background Color
     @IBInspectable var bgcolor: UIColor = UIColor.blue {
         didSet {
             self.backgroundColor = bgcolor
+        }
+    }
+    
+    /// Button Background Color
+    @IBInspectable var color: UIColor = UIColor.blue {
+        didSet {
+            self.backgroundColor = color
         }
     }
 }

@@ -20,4 +20,10 @@ public enum ButtonType: String {
             self.backgroundColor = bgcolor
         }
     }
+    /// Button Background Color
+    @IBInspectable var color: UIColor = UIColor.blue {
+        didSet {
+            self.backgroundColor = color
+        }
+    }
 }
